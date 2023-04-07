@@ -5,5 +5,5 @@ import org.example.model.Person;
 public interface Methods{
 
 
-    void sellbuy(Person seller, Person buyer, int price);
+    void sellbuy(Seller seller, Buyer buyer, int price);
 }
