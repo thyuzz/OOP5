@@ -6,7 +6,7 @@ public class MethodsImpl implements Methods  {
 
 
     @Override
-    public void sellbuy(Person seller, Person buyer, int price){
+    public void sellbuy(Seller seller, Buyer buyer, int price){
         if (buyer.getWallet() >= price){
             seller.setWallet(seller.getWallet() + price);
             buyer.setWallet(buyer.getWallet() - price);
